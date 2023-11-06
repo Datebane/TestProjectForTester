@@ -1,0 +1,342 @@
+.bodyObjects-wrapper {
+  background-color: rgb(0, 88, 129);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: -16px; */
+}
+
+.bodyObjects-first-item {
+  color: white;
+  font-size: 60px;
+  justify-content: center;
+}
+
+.bodyObjects-first-object {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.bodyObjects-first-object img {
+  height: 320px;
+  border-bottom-left-radius: 10%;
+  border-top-left-radius: 10%;
+}
+
+.text-first-name {
+  font-size: 30px;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.text-first-description {
+  font-size: 20px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+}
+
+.text-first-button {
+  border: 2px solid white;
+  color: white;
+  font-size: 36px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: right;
+  padding-right: 50px;
+  margin-left: 410px;
+}
+
+.text-content {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.bodyObject-second-object {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-top: -95px;
+  position: relative;
+  z-index: 0;
+}
+
+.bodyObject-images {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.first-img {
+  border-top-right-radius: 10px;
+}
+
+.bodyObject-first-img img {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 290px;
+  height: 250px;
+}
+
+.bodyObject-second-img img {
+  border-bottom-right-radius: 5px;
+  width: 210px;
+  height: 240px;
+}
+
+.bodyObjects-second-item {
+  color: white;
+  font-size: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.bodyObject-second-description,
+.bodyObject-second-description-two {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.bodyObject-second-description-two {
+  color: white;
+}
+
+.bodyObjects-name-item {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.bodyObjects-name-item-two {
+  color: white;
+  font-size: 26px;
+}
+
+.left-content {
+  margin-left: 45px;
+}
+
+.right-content {
+  background: linear-gradient(45deg, #ffffff -20%, #ff0000 100%);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 240px;
+  padding-left: 20px;
+  margin-top: -15px;
+}
+
+.second-object-button {
+  color: white;
+  background-color: #5faee7;
+  width: 340px;
+  height: 57px;
+  font-size: 18px;
+  font-family: "Pacifico", cursive;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.second-button-two {
+  color: white;
+  background-color: #e6e6e6;
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  border-radius: 10px;
+  width: 249px;
+  height: 36px;
+  padding-left: 40px;
+}
+
+.separate-button-wrapper {
+  background: linear-gradient(45deg, #ff6b6b, #95eb6f);
+  width: 615px;
+  height: 65px;
+  border-radius: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separate-button {
+  background-color: rgb(0, 88, 129);
+  border-radius: 10px;
+  margin: 5px;
+  width: 99%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separate-button-text {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  color: white;
+  padding-right: 110px;
+}
+
+.bodyObjects-third-name {
+  font-size: 32px;
+  color: #c50000;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  justify-content: center;
+}
+
+.third-object-name {
+  color: white;
+  font-size: 60px;
+  font-family: "Caveat", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.third-object-wrapper {
+  background-color: rgba(67, 155, 138);
+  border-radius: 60px;
+  height: 322px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.images-and-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images-and-text img {
+  display: flex;
+  align-items: center;
+}
+
+.third-object-description {
+  font-size: 18px;
+  color: white;
+}
+
+.third-object-img-one img {
+  width: 370px;
+  height: 350px;
+  margin-top: -115px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  object-fit: cover;
+}
+
+.third-object-img-two img {
+  width: 350px;
+  height: 400px;
+  margin-top: -165px;
+  object-fit: cover;
+  border-bottom-right-radius: 60px;
+}
+
+.fourth-object-name {
+  font-family: "Anonymous Pro", sans-serif;
+  color: white;
+  font-size: 50px;
+}
+
+.fourth-object-name-two {
+  color: #aa0000;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.fourth-object-wrapper {
+  background-image: url("https://ukrpublic.com/images/2021/06/09/growingkelpf.jpg.47929f33a708cad_large.jpg");
+  object-fit: cover;
+  width: 800px;
+  height: 429px;
+  border-radius: 50px;
+  margin-right: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.text-and-blocks {
+  display: flex;
+  align-items: center;
+}
+
+.fourth-object-description {
+  font-family: "Inter", sans-serif;
+  color: rgb(75, 69, 69);
+  font-size: 20px;
+  width: 388px;
+  height: 265px;
+  background-color: #ffffff;
+  opacity: 30%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 15px;
+  margin-top: 53px;
+}
+
+.blocks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 400px;
+}
+
+.fourth-object-first-block,
+.fourth-object-second-block,
+.fourth-object-third-block,
+.fourth-object-fourth-block {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.fourth-object-first-block {
+  border-radius: 30px;
+  background-color: #0087c1;
+  width: 122px;
+  height: 71px;
+  margin-bottom: 30px;
+}
+
+.fourth-object-second-block {
+  border-radius: 18px;
+  background-color: #ffa800;
+  width: 60px;
+  height: 91px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+
+.fourth-object-third-block {
+  border-radius: 50px;
+  background-color: #ff0000;
+  width: 42px;
+  height: 61px;
+  margin-bottom: 20px;
+  margin-left: -70px;
+}
+
+.fourth-object-fourth-block {
+  border-radius: 50px;
+  background-color: #ff00a8;
+  width: 43px;
+  height: 71px;
+}
+
+.bodyObjects-first-item,
+.bodyObjects-second-item,
+.bodyObjects-second-name,
+.bodyObjects-name-item {
+  font-family: "Playfair Display", serif;
+}

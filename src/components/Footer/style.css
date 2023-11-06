@@ -1,0 +1,81 @@
+.footer_wrapper {
+  width: 100%;
+  height: 618px;
+  background: linear-gradient(180deg, #9b3434 0%, #c8d7ff 100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.centered-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.splash-ocean {
+  background-image: url("./../../../public//img/water-drop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-items: center;
+  align-self: center;
+  margin-top: 70px;
+}
+
+.splash-ocean-footer-item {
+  color: blue;
+  font-size: 64px;
+  align-items: center;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-footer-item {
+  width: 367px;
+  height: 53px;
+  top: 5470px;
+  left: 846px;
+  font-size: 40px;
+  color: white;
+  margin-right: 400px;
+}
+
+.second-footer-item {
+  width: 150px;
+  height: 53px;
+  top: 5576px;
+  left: 954px;
+  font-size: 40px;
+  color: white;
+  margin-right: 400px;
+}
+
+.third-footer-item {
+  width: 299px;
+  height: 53px;
+  top: 5682px;
+  left: 785px;
+  font-size: 40px;
+  color: white;
+  margin-right: 600px;
+}
+
+.fourth-footer-item {
+  width: 140px;
+  height: 53px;
+  top: 5811px;
+  left: 1050px;
+  font-size: 40px;
+  color: white;
+  margin-right: 330px;
+}

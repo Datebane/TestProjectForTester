@@ -1,0 +1,82 @@
+.transparent-header {
+  height: 150px;
+  margin-top: -10px;
+  background-color: rgb(18, 18, 216);
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transparent-header p {
+  text-align: center;
+  color: white;
+}
+
+.header-centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-splash-ocean {
+  background-image: url("./../../../public//img/water-drop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.header-splash-ocean-span {
+  font-size: 28px;
+  color: blue;
+  align-items: center;
+}
+
+.first-item {
+  width: 135px;
+  height: 42px;
+  top: 37px;
+  left: 683px;
+  font-size: 32px;
+  margin-left: 2px;
+  margin-top: 0px;
+}
+
+.second-item {
+  width: 135px;
+  height: 42px;
+  top: 73px;
+  left: 1133px;
+  font-size: 32px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.third-item {
+  width: 116px;
+  height: 42px;
+  top: 58px;
+  left: 1517px;
+  font-size: 32px;
+  padding-left: 35px;
+}
+
+.header-splash-ocean-span,
+.first-item,
+.second-item,
+.third-item {
+  font-family: "Roboto Mono", monospace;
+}
